@@ -8,10 +8,13 @@
 import SwiftUI
 
 struct HomeView: View {
+    
+    @EnvironmentObject var mapVM: MapViewModel
+    
     var body: some View {
         NavigationView {
             ScrollView {
-                LocationList(locations: Location.all)
+                LocationList(locations: mapVM.locations)
             }
             .navigationTitle("My Locations")
             
@@ -23,5 +26,6 @@ struct HomeView: View {
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         HomeView()
+            .environmentObject(MapViewModel())
     }
 }

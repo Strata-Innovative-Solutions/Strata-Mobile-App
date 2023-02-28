@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0416C0012991ECA30081D678 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0416C0002991ECA30081D678 /* LocationDetailView.swift */; };
+		0429FB2C29AA6B2400B8511B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429FB2B29AA6B2400B8511B /* LoginView.swift */; };
+		0429FB2E29AA741C00B8511B /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429FB2D29AA741C00B8511B /* Authentication.swift */; };
+		0429FB3029AA745C00B8511B /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429FB2F29AA745C00B8511B /* APIService.swift */; };
+		0429FB3229AA74D700B8511B /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429FB3129AA74D700B8511B /* UIApplication+Extension.swift */; };
+		0429FB3429AA7A8E00B8511B /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429FB3329AA7A8E00B8511B /* Credentials.swift */; };
+		0429FB3729AD1EDE00B8511B /* KeychainStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429FB3629AD1EDD00B8511B /* KeychainStorage.swift */; };
+		0429FB3A29ADA1C900B8511B /* SwiftKeychainWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = 0429FB3929ADA1C900B8511B /* SwiftKeychainWrapper */; };
 		0477129B29849C8200ED3F3B /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0477129A29849C8200ED3F3B /* CategoryView.swift */; };
 		0477129D2984A08000ED3F3B /* AddLocationview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0477129C2984A08000ED3F3B /* AddLocationview.swift */; };
 		0477129F2986DB4300ED3F3B /* LocationsListview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0477129E2986DB4300ED3F3B /* LocationsListview.swift */; };
@@ -20,6 +28,8 @@
 		047CBA11297F8B6F00DFC7EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047CBA10297F8B6F00DFC7EC /* LaunchScreen.storyboard */; };
 		047CBA13297FF50300DFC7EC /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047CBA12297FF50300DFC7EC /* LocationModel.swift */; };
 		047CBA152980064C00DFC7EC /* LocationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047CBA142980064C00DFC7EC /* LocationCard.swift */; };
+		04948AE229907FE600E88A83 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04948AE129907FE600E88A83 /* LocationPreviewView.swift */; };
+		04AF28FA29A6CF6100FD30F4 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF28F929A6CF6100FD30F4 /* LoginViewModel.swift */; };
 		04BEFE462977697800009E6C /* Strata_Mobile_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BEFE452977697800009E6C /* Strata_Mobile_AppApp.swift */; };
 		04BEFE482977697800009E6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BEFE472977697800009E6C /* ContentView.swift */; };
 		04BEFE4A2977697900009E6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BEFE492977697900009E6C /* Assets.xcassets */; };
@@ -31,6 +41,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0416C0002991ECA30081D678 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
+		0429FB2B29AA6B2400B8511B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0429FB2D29AA741C00B8511B /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		0429FB2F29AA745C00B8511B /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		0429FB3129AA74D700B8511B /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		0429FB3329AA7A8E00B8511B /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		0429FB3529AAF01F00B8511B /* Strata-Mobile-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Strata-Mobile-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		0429FB3629AD1EDD00B8511B /* KeychainStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStorage.swift; sourceTree = "<group>"; };
 		0477129A29849C8200ED3F3B /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		0477129C2984A08000ED3F3B /* AddLocationview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocationview.swift; sourceTree = "<group>"; };
 		0477129E2986DB4300ED3F3B /* LocationsListview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListview.swift; sourceTree = "<group>"; };
@@ -44,6 +62,8 @@
 		047CBA10297F8B6F00DFC7EC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		047CBA12297FF50300DFC7EC /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		047CBA142980064C00DFC7EC /* LocationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCard.swift; sourceTree = "<group>"; };
+		04948AE129907FE600E88A83 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
+		04AF28F929A6CF6100FD30F4 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		04BEFE422977697800009E6C /* Strata Mobile App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Strata Mobile App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BEFE452977697800009E6C /* Strata_Mobile_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strata_Mobile_AppApp.swift; sourceTree = "<group>"; };
 		04BEFE472977697800009E6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0429FB3A29ADA1C900B8511B /* SwiftKeychainWrapper in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				047CBA10297F8B6F00DFC7EC /* LaunchScreen.storyboard */,
+				0429FB2B29AA6B2400B8511B /* LoginView.swift */,
 				047CBA0E297F73F600DFC7EC /* WelcomeView.swift */,
 				04BEFE472977697800009E6C /* ContentView.swift */,
 				047CBA0A297F708200DFC7EC /* TabBar.swift */,
@@ -101,6 +123,8 @@
 				0477129A29849C8200ED3F3B /* CategoryView.swift */,
 				0477129C2984A08000ED3F3B /* AddLocationview.swift */,
 				0477129E2986DB4300ED3F3B /* LocationsListview.swift */,
+				04948AE129907FE600E88A83 /* LocationPreviewView.swift */,
+				0416C0002991ECA30081D678 /* LocationDetailView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -118,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				04D66F8C2983C5B2004B7A20 /* LocationsViewModel.swift */,
+				04AF28F929A6CF6100FD30F4 /* LoginViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -125,9 +150,21 @@
 		047CB9FD297F62CB00DFC7EC /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				0429FB3329AA7A8E00B8511B /* Credentials.swift */,
 				047CBA12297FF50300DFC7EC /* LocationModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		04AF28F029A6CB3500FD30F4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0429FB2D29AA741C00B8511B /* Authentication.swift */,
+				0429FB2F29AA745C00B8511B /* APIService.swift */,
+				0429FB3129AA74D700B8511B /* UIApplication+Extension.swift */,
+				0429FB3629AD1EDD00B8511B /* KeychainStorage.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		04BEFE392977697800009E6C = {
@@ -149,9 +186,11 @@
 		04BEFE442977697800009E6C /* Strata Mobile App */ = {
 			isa = PBXGroup;
 			children = (
+				0429FB3529AAF01F00B8511B /* Strata-Mobile-App-Info.plist */,
 				04BEFE452977697800009E6C /* Strata_Mobile_AppApp.swift */,
 				047CB9F7297F61C500DFC7EC /* Views */,
 				047CB9FC297F62A200DFC7EC /* ViewModels */,
+				04AF28F029A6CB3500FD30F4 /* Services */,
 				047CB9FD297F62CB00DFC7EC /* Models */,
 				04BEFE492977697900009E6C /* Assets.xcassets */,
 				04BEFE4B2977697900009E6C /* Strata_Mobile_App.entitlements */,
@@ -192,6 +231,9 @@
 			dependencies = (
 			);
 			name = "Strata Mobile App";
+			packageProductDependencies = (
+				0429FB3929ADA1C900B8511B /* SwiftKeychainWrapper */,
+			);
 			productName = "Strata Mobile App";
 			productReference = 04BEFE422977697800009E6C /* Strata Mobile App.app */;
 			productType = "com.apple.product-type.application";
@@ -220,6 +262,9 @@
 				Base,
 			);
 			mainGroup = 04BEFE392977697800009E6C;
+			packageReferences = (
+				0429FB3829ADA1C900B8511B /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */,
+			);
 			productRefGroup = 04BEFE432977697800009E6C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -251,19 +296,28 @@
 				04BEFE482977697800009E6C /* ContentView.swift in Sources */,
 				047CBA09297F665A00DFC7EC /* SettingsView.swift in Sources */,
 				047CBA01297F658100DFC7EC /* HomeView.swift in Sources */,
+				0429FB3229AA74D700B8511B /* UIApplication+Extension.swift in Sources */,
 				04D66F8D2983C5B2004B7A20 /* LocationsViewModel.swift in Sources */,
 				0477129D2984A08000ED3F3B /* AddLocationview.swift in Sources */,
+				04AF28FA29A6CF6100FD30F4 /* LoginViewModel.swift in Sources */,
+				0429FB3729AD1EDE00B8511B /* KeychainStorage.swift in Sources */,
 				047CBA0B297F708200DFC7EC /* TabBar.swift in Sources */,
 				0477129B29849C8200ED3F3B /* CategoryView.swift in Sources */,
 				047CBA152980064C00DFC7EC /* LocationCard.swift in Sources */,
+				04948AE229907FE600E88A83 /* LocationPreviewView.swift in Sources */,
 				047CBA0F297F73F600DFC7EC /* WelcomeView.swift in Sources */,
 				04D66F8229814568004B7A20 /* LocationList.swift in Sources */,
 				0477129F2986DB4300ED3F3B /* LocationsListview.swift in Sources */,
 				047CBA05297F662500DFC7EC /* NewLocationView.swift in Sources */,
 				047CBA07297F663E00DFC7EC /* MapView.swift in Sources */,
+				0429FB2C29AA6B2400B8511B /* LoginView.swift in Sources */,
+				0429FB3029AA745C00B8511B /* APIService.swift in Sources */,
 				04BEFE462977697800009E6C /* Strata_Mobile_AppApp.swift in Sources */,
+				0429FB3429AA7A8E00B8511B /* Credentials.swift in Sources */,
 				047CBA13297FF50300DFC7EC /* LocationModel.swift in Sources */,
 				04D66F8B2983AE1C004B7A20 /* LocationDataService.swift in Sources */,
+				0429FB2E29AA741C00B8511B /* Authentication.swift in Sources */,
+				0416C0012991ECA30081D678 /* LocationDetailView.swift in Sources */,
 				047CBA03297F65ED00DFC7EC /* CategoriesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -392,6 +446,9 @@
 				DEVELOPMENT_TEAM = UAHMJZRBUY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Strata-Mobile-App-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "$(MARKETING_VERSION)";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -430,6 +487,9 @@
 				DEVELOPMENT_TEAM = UAHMJZRBUY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Strata-Mobile-App-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "$(MARKETING_VERSION)";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -478,6 +538,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0429FB3829ADA1C900B8511B /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jrendel/SwiftKeychainWrapper";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0429FB3929ADA1C900B8511B /* SwiftKeychainWrapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0429FB3829ADA1C900B8511B /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */;
+			productName = SwiftKeychainWrapper;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 04BEFE3A2977697800009E6C /* Project object */;
 }

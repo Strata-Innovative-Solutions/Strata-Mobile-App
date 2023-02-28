@@ -10,24 +10,26 @@ import SwiftUI
 @main
 struct Strata_Mobile_AppApp: App {
     
+    @StateObject var mapViewModel = MapViewModel()
+    @StateObject var authentication = Authentication()
+    
     @StateObject private var vm = MapViewModel()
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if authentication.isValidated {
+                ContentView()
+                    .environmentObject(mapViewModel)
+                    .environmentObject(authentication)
+                
+            } else {
+                LoginView()
+                    .environmentObject(authentication)
+            }
             
-//            MapView()
-//                .environmentObject(vm)
+            
         }
         
     }
 }
 
-////class AppDelegate: NSObject, UIApplicationDelegate {
-////    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-////                // Override point for customization after application launch.
-////                Thread.sleep(forTimeInterval: 5.0)
-////                return true
-////        }
-//
-//}

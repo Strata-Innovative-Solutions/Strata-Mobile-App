@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct AddLocationview: View {
+    @EnvironmentObject var mapVM: MapViewModel
     //created 5 states variable name of a type string
     @State private var name: String = ""
     @State private var selectedCategory: Category = Category.CPF
@@ -86,6 +87,7 @@ struct AddLocationview: View {
 struct AddLocationview_Previews: PreviewProvider {
     static var previews: some View {
         AddLocationview()
+            .environmentObject(MapViewModel())
     }
 }
 

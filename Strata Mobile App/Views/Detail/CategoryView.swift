@@ -8,10 +8,13 @@
 import SwiftUI
 
 struct CategoryView: View {
+    
+    @EnvironmentObject var mapVM: MapViewModel
+    
     var category: Category
     // computed property: resulting in of the location being filter in the main of that view
     var locations: [Location] {
-        return Location.all.filter {$0.category == category.rawValue}
+        return mapVM.locations.filter {$0.category == category.rawValue}
     }
     
     
@@ -27,5 +30,6 @@ struct CategoryView: View {
 struct CategoryView_Previews: PreviewProvider {
     static var previews: some View {
         CategoryView(category: Category.CPF)
+            .environmentObject(MapViewModel())
     }
 }
